@@ -1,0 +1,6 @@
+body { margin: 0; padding: 0; background: #222; color: #fff; font-family: 'Microsoft YaHei', Arial, sans-serif; }
+#game-container { width: 820px; margin: 40px auto; background: #333; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.5); padding: 20px; position: relative; }
+#game-canvas { display: block; background: #111; border: 2px solid #444; border-radius: 8px; margin: 0 auto; }
+#score-board { text-align: center; font-size: 22px; margin: 18px 0 10px 0; }
+#start-btn { display: block; margin: 0 auto; padding: 10px 32px; font-size: 20px; background: #ff9800; color: #fff; border: none; border-radius: 6px; cursor: pointer; transition: background 0.2s; }
+#start-btn:hover { background: #e65100; }

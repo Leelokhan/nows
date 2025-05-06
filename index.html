@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra walki patyczaków</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls-pl">Sterowanie: Strzałki lub WASD - ruch, Spacja lub J - atak</div>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="450"></canvas>
+        <div id="score-board">Wynik: <span id="score">0</span></div>
+        <button id="start-btn">Rozpocznij grę</button>
+    </div>
+    <script src="game.js"></script>
+    <script src="live2d-widget.js"></script>
+    <button id="switch-model-btn" style="position:fixed;right:10px;bottom:10px;z-index:9999;">Zmień model</button>
+</body>
+</html>
