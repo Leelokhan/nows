@@ -10,10 +10,10 @@ const UUID = process.env.UUID || '3f2b4a4e-4334-4abf-b09d-78501c392bdb'; // 运�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';       // 哪吒v1填写形式：nz.abc.com:8008   哪吒v0填写形式：nz.abc.com
 const NEZHA_PORT = process.env.NEZHA_PORT || '';           // 哪吒v1没有此变量，v0的agent端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             // v1的NZ_CLIENT_SECRET或v0的agent端口                
-const DOMAIN = process.env.DOMAIN || 'meiguo.zone.id';       // 填写项目域名或已反代的域名，不带前缀，建议填已反代的域名
+const DOMAIN = process.env.DOMAIN || 'nowslee.zone.id';       // 填写项目域名或已反代的域名，不带前缀，建议填已反代的域名
 const AUTO_ACCESS = process.env.AUTO_ACCESS || true;      // 是否开启自动访问保活,false为关闭,true为开启,需同时填写DOMAIN变量
 const SUB_PATH = process.env.SUB_PATH || 'lee';            // 获取节点的订阅路径
-const NAME = process.env.NAME || '美国';                    // 节点名称
+const NAME = process.env.NAME || 'sg';                    // 节点名称
 const PORT = process.env.PORT || 42805;                     // http和ws服务端口
 
 const metaInfo = execSync(
